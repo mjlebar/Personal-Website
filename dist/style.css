@@ -51,7 +51,7 @@ li {
   /* just makes sure we don't have dots next to our page names :) */
 }
 
-.sidebar {
+sidebar {
   margin: 0px;
   /* makes sure we fill the whole page */
   border-right: 4px solid white;
