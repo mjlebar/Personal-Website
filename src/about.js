@@ -6,6 +6,7 @@ function setUpAbout() {
   const aboutInfo1 = document.createElement("p");
   const aboutImg = document.createElement("img");
   aboutImg.classList.add("prof-pic");
+  //   the picture of me for the profile
   const aboutInfo2 = document.createElement("p");
   const aboutItems = [aboutInfo1, aboutImg, aboutInfo2];
   for (let item of aboutItems) {
@@ -16,6 +17,7 @@ function setUpAbout() {
   aboutInfo1.textContent =
     "I graduated Davidson College in May, 2019 with a degree in math and philosophy. I took and enjoyed a couple coding classes (including a Data Structures class using Java), but just didn't have the time to pursue coding further in college. Still, my favorite topics in math were the ones closest to computer science - discrete math, mathematical logic, and theory of computing. After graduating, I spent three years working in math education. I thoroughly enjoyed teaching math, and I will take the practice of clearly and quickly communicating technical concepts with me, I felt it was time to further develop my knowledge and problem-solving skills by entering the coding world.";
   aboutInfo1.classList.add("abt-info-1");
+
   aboutImg.src = profPhoto;
   aboutImg.alt = "A picture of me smiling";
 

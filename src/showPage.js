@@ -2,10 +2,14 @@ import { homeItems, projItems, aboutItems } from "./index";
 
 function showPage(e) {
   const main = document.querySelector("main");
-  const cards = document.querySelectorAll(".card"); //add event listeners to set up card structure with projects
+  const cards = document.querySelectorAll(".card");
+  //   we select the cards from the HTML, already constructed - it's easier to put them in HTML than to load them in proj.js, since they have so much content (and we can just hide them until we need them). As I add more projects I will probably change this so it's easier to add a new project
   const sidebar = document.querySelector("sidebar");
   let show, hide1, hide2;
+  // based on what header has been clicked, we want to show one page and hide the other 2
+
   switch (e.target.classList[0]) {
+    //   in each case, we hide or show the sidebar and the cards as appropriate, set show, hide1, and hide2 appropriately, and change main's classList to show which tab is being displayed
     case "proj":
       sidebar.classList.remove("hidden");
       show = projItems;
