@@ -1,0 +1,171 @@
+.projects {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  height: 85vh;
+  /* the basic grid that sets up the structure for all pages; the columns are only used for the projects page. other than that, the content spans both columns */
+}
+
+body {
+  color: #333333;
+  background-color: #bdc3c7;
+  font-family: "Open Sans", "Lato", "Raleway", "Monsterat", "PT Sans";
+  margin: 0px;
+}
+
+header {
+  height: 15vh;
+  background-color: #27ae60;
+  border-bottom: 5px solid white;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* the header spans the whole top row, and across both columns */
+
+  font-size: x-large;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  /* allows us to align the header content */
+  width: 100vw;
+}
+
+header ul {
+  flex: auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  padding: 0px;
+  /* this is what actually contains the page names */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+.sidebar {
+  margin: 0px;
+  /* makes sure we fill the whole page */
+  border-right: 4px solid white;
+  color: black;
+  padding-block: 5px;
+  padding-inline: 25px;
+  margin-inline: 10px;
+  /* we need the additional margin in-line so that the cards don't scroll over its border */
+  text-align: center;
+  height: 100%;
+  /* we want it to fill the whole page - otherwise the border ends prematurely */
+
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  /* this font size just looks right */
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* sets up a scrolling grid of cards - grid sizes the cards more nicely than flex here */
+
+  gap: 20px;
+  padding: 10px;
+  /* makes sure our cards have plenty of space to breathe */
+  align-items: center;
+  /* aligns the cards */
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* positiions in the page correctly */
+}
+
+.card {
+  width: 300px;
+  margin: 5px;
+  background-color: #5e5d5ddd;
+  border-radius: 5px;
+  color: white;
+  /* makes the cards look reasonably nice */
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+
+  /* Formats the content within the cards */
+}
+
+.card p {
+  text-align: center;
+  padding: 5px;
+}
+
+.card img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5%;
+}
+
+.home {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  text-align: center;
+  line-height: 1.5;
+
+  /* other than that, just text alignment and formatting */
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* makes a nice little grid to position the photo with the text */
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  line-height: 1.5;
+  margin-block: 0px;
+  /* the -10px margin doesn't look good here */
+  margin-inline: 25px;
+}
+
+.about * {
+  padding: 5px;
+  margin: 5px;
+}
+
+.prof-pic {
+  border-radius: 15px;
+  height: 275px;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+/* formats my photo nicely */
+
+.abt-info-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.abt-info-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* positions these in the grid nicely */
