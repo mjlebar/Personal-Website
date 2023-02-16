@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.08236865.css",
+    "main.js": "/personal-website/static/js/main.4830a291.js",
+    "static/media/memory.png": "/personal-website/static/media/memory.9045aa5e629a48d657f7.png",
+    "static/media/zooshop.png": "/personal-website/static/media/zooshop.6da56e024ad1a6e186c0.png",
+    "static/media/cv.png": "/personal-website/static/media/cv.13b7c9eda62482aba76d.png",
+    "static/media/todo.png": "/personal-website/static/media/todo.b0ef0ce874710d98a035.png",
+    "static/media/etch.png": "/personal-website/static/media/etch.e90330e48e9a1efe734e.png",
+    "static/media/calc.png": "/personal-website/static/media/calc.4400aad45488a2603f97.png",
+    "static/media/Matthew_LeBar.jpg": "/personal-website/static/media/Matthew_LeBar.c3c62a548aea7ccc3329.jpg",
+    "static/media/tic-tac-toe.png": "/personal-website/static/media/tic-tac-toe.d444c397ec96b67ae790.png",
+    "index.html": "/personal-website/index.html",
+    "main.08236865.css.map": "/personal-website/static/css/main.08236865.css.map",
+    "main.4830a291.js.map": "/personal-website/static/js/main.4830a291.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08236865.css",
+    "static/js/main.4830a291.js"
+  ]
+}
