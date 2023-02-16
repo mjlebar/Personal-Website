@@ -18,22 +18,25 @@ function About() {
       <img className="prof-pic" src={profPhoto} alt="Me smiling"></img>
       <p className="abt-info-2">
         {" "}
-        My focus has been on learning Java and SQL for back-end development, and
-        JavaScript, CSS, and HTML for front-end development. For front-end
-        development, I have been working through
+        My focus has been on learning React, JavaScript, CSS, and HTML for
+        front-end development, and Java and SQL for back-end development,. For
+        front-end development, I have been working through
         <a href="https://www.theodinproject.com/">The Odin Project,</a>where I
-        have practiced not just JavaScript, HTML, and CSS, but tools like Jest,
-        Webpack, git and gitHub, and NPM. As I continue to work through the
-        course, I will learn React, MongoDB, and Node.js. I have completed a
+        have practiced not just React, JavaScript, MongodB, HTML, and CSS, but
+        tools like Jest, Webpack, git and gitHub, and NPM. To finish the course,
+        I will learn Node.js. I have completed a
         <a href="https://www.udemy.com/course/master-practical-java-development/">
           Java Certification Course
         </a>
         to refresh the fundamentals of Java, as well as reviewed material on
-        data structures. I've also complete an
+        data structures. I've also completed an
         <a href="https://verify.w3schools.com/1N5K1DMUGK">SQL certification</a>
-        and have read up on the relational database management system. I've also
-        been working on my Java, JavaScript, and SQL with practice questions on
-        websites like LeetCode and HackerRank.
+        and have read up on the relational database management system. Finally,
+        I've been working on my Java (especially data structures), JavaScript,
+        and SQL with practice questions on websites like LeetCode and
+        HackerRank. I've noticed how much my math training helps me solve
+        problems cleanly and efficiently, by utilizing conceptual understanding
+        and persisting through cognitive frustration.
       </p>
     </div>
   );
