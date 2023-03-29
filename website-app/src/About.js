@@ -26,7 +26,7 @@ function About() {
         both practical and theoretical mastery of neural networks. In addition
         to learning JavaScript (including React and Node), CSS, HTML, I've been
         learning languages and tools like Java, SQL, and MongoDB for the
-        backend. A project using Node to connect to MongoDB through express is
+        backend. A project using Node to connect to MongoDB through Express is
         forthcoming. Additionally, since much of my front-end learning has been
         through{" "}
         <a href="https://www.theodinproject.com/about">
