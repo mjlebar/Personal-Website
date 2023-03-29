@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.08236865.css",
-    "main.js": "/Personal-Website/static/js/main.84b3e14c.js",
+    "main.css": "/Personal-Website/static/css/main.cad7de11.css",
+    "main.js": "/Personal-Website/static/js/main.c4a91b4c.js",
     "static/media/memory.png": "/Personal-Website/static/media/memory.9045aa5e629a48d657f7.png",
     "static/media/zooshop.png": "/Personal-Website/static/media/zooshop.6da56e024ad1a6e186c0.png",
     "static/media/cv.png": "/Personal-Website/static/media/cv.13b7c9eda62482aba76d.png",
@@ -11,11 +11,11 @@
     "static/media/Matthew_LeBar.jpg": "/Personal-Website/static/media/Matthew_LeBar.c3c62a548aea7ccc3329.jpg",
     "static/media/tic-tac-toe.png": "/Personal-Website/static/media/tic-tac-toe.d444c397ec96b67ae790.png",
     "index.html": "/Personal-Website/index.html",
-    "main.08236865.css.map": "/Personal-Website/static/css/main.08236865.css.map",
-    "main.84b3e14c.js.map": "/Personal-Website/static/js/main.84b3e14c.js.map"
+    "main.cad7de11.css.map": "/Personal-Website/static/css/main.cad7de11.css.map",
+    "main.c4a91b4c.js.map": "/Personal-Website/static/js/main.c4a91b4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.08236865.css",
-    "static/js/main.84b3e14c.js"
+    "static/css/main.cad7de11.css",
+    "static/js/main.c4a91b4c.js"
   ]
 }
