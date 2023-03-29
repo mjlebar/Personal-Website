@@ -18,25 +18,22 @@ function About() {
       <img className="prof-pic" src={profPhoto} alt="Me smiling"></img>
       <p className="abt-info-2">
         {" "}
-        My focus has been on learning React, JavaScript, CSS, and HTML for
-        front-end development, and Java and SQL for back-end development,. For
-        front-end development, I have been working through
-        <a href="https://www.theodinproject.com/">The Odin Project,</a>where I
-        have practiced not just React, JavaScript, MongodB, HTML, and CSS, but
-        tools like Jest, Webpack, git and gitHub, and NPM. To finish the course,
-        I will learn Node.js. I have completed a
-        <a href="https://www.udemy.com/course/master-practical-java-development/">
-          Java Certification Course
-        </a>
-        to refresh the fundamentals of Java, as well as reviewed material on
-        data structures. I've also completed an
-        <a href="https://verify.w3schools.com/1N5K1DMUGK">SQL certification</a>
-        and have read up on the relational database management system. Finally,
-        I've been working on my Java (especially data structures), JavaScript,
-        and SQL with practice questions on websites like LeetCode and
-        HackerRank. I've noticed how much my math training helps me solve
-        problems cleanly and efficiently, by utilizing conceptual understanding
-        and persisting through cognitive frustration.
+        I'm currently working on learning Python, and several of its most useful
+        libraries, including PyTorch, NumPy, and Pandas. I am developing my own
+        machine learning project using PyTorch to create a Transformer neural
+        network trained on a small language dataset. I've also been learning the
+        fundamentals behind the theory of machine learning, so that I can have
+        both practical and theoretical mastery of neural networks. In addition
+        to learning JavaScript (including React and Node), CSS, HTML, I've been
+        learning languages and tools like Java, SQL, and MongoDB for the
+        backend. A project using Node to connect to MongoDB through express is
+        forthcoming. Additionally, since much of my front-end learning has been
+        through{" "}
+        <a href="https://www.theodinproject.com/about">
+          The Odin Project,
+        </a>{" "}
+        I've been able to develop knowledge of many other tools, like Jest,
+        Weback, git, and GitHub, just to name a few.
       </p>
     </div>
   );

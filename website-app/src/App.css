@@ -11,6 +11,7 @@ body {
   font-family: "Open Sans", "Lato", "Raleway", "Monsterat", "PT Sans";
   margin: 0px;
   overflow: hidden;
+  letter-spacing: 0.75px;
 }
 
 header {
@@ -116,6 +117,7 @@ li {
 }
 
 .home {
+  background-color: #ecf0f1;
   font-size: 20px;
   display: flex;
   flex-direction: column;
