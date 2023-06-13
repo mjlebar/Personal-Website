@@ -17,23 +17,19 @@ function About() {
       </p>
       <img className="prof-pic" src={profPhoto} alt="Me smiling"></img>
       <p className="abt-info-2">
-        {" "}
-        I'm currently working on learning Python, and several of its most useful
-        libraries, including PyTorch, NumPy, and Pandas. I am developing my own
-        machine learning project using PyTorch to create a Transformer neural
-        network trained on a small language dataset. I've also been learning the
-        fundamentals behind the theory of machine learning, so that I can have
-        both practical and theoretical mastery of neural networks. In addition
-        to learning JavaScript (including React and Node), CSS, HTML, I've been
-        learning languages and tools like Java, SQL, and MongoDB for the
-        backend. A project using Node to connect to MongoDB through Express is
-        forthcoming. Additionally, since much of my front-end learning has been
-        through{" "}
-        <a href="https://www.theodinproject.com/about">
-          The Odin Project,
-        </a>{" "}
+        In addition to learning JavaScript (including React and Node), CSS,
+        HTML, I've been learning languages and tools like Java, SQL for the
+        backend. I've also just finished a project using MongoDB with Express
+        and Node. Since much of my web development learning has been through
+        <a href="https://www.theodinproject.com/about">The Odin Project,</a>
         I've been able to develop knowledge of many other tools, like Jest,
-        Weback, git, and GitHub, just to name a few.
+        Webpack, git, and GitHub, just to name a few. I'm working on learning
+        Python, along with several of its most useful libraries, including
+        PyTorch, NumPy, and Pandas. I've developed machine learning project
+        using PyTorch to create a Transformer neural network trained on a small
+        language dataset. I've also been learning the fundamentals behind the
+        theory of machine learning, so that I can have both practical and
+        theoretical mastery of neural networks.
       </p>
     </div>
   );
