@@ -1,0 +1,166 @@
+.projects {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  height: 85vh;
+  /* the basic grid that sets up the structure for all pages; the columns are only used for the projects page. other than that, the content spans both columns */
+}
+
+body {
+  color: #333333;
+  background-color: #bdc3c7;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  overflow: hidden;
+  letter-spacing: 0.75px;
+}
+
+header {
+  height: 15vh;
+  background-color: #27ae60;
+  border-bottom: 5px solid white;
+
+  font-size: x-large;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+header ul {
+  flex: auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  padding: 0px;
+  /* this is what actually contains the page names */
+}
+
+header ul a {
+  text-decoration: none;
+}
+/* removes the underlining from the header links */
+
+li {
+  list-style: none;
+  color: white;
+}
+
+.sidebar {
+  border-right: 4px solid white;
+  color: black;
+  padding-block: 5px;
+  padding-inline: 25px;
+
+  text-align: center;
+  height: 100%;
+  /* we want it to fill the whole page - otherwise the border ends prematurely */
+
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  /* this font size just looks right */
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.cards {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* sets up a scrolling line of cards */
+
+  gap: 20px;
+  padding: 10px;
+  align-items: center;
+
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.card {
+  height: 85%;
+  min-width: 350px;
+  margin: 5px;
+  background-color: #5e5d5ddd;
+  border-radius: 10px;
+  color: white;
+  /* makes the cards themselves look reasonably nice */
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  /* Formats the content within the cards */
+}
+
+.card p {
+  text-align: center;
+  padding: 5px;
+}
+
+.card a {
+  color: #3498db;
+}
+
+.card img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5%;
+  max-height: 300px;
+}
+
+.home {
+  background-color: #ecf0f1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* makes a nice little grid to position the photo with the text */
+  grid-template-rows: 1fr 1fr;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  line-height: 1.5;
+  margin-block: 25px;
+  margin-inline: 10px;
+}
+
+.about * {
+  padding: 5px;
+  margin: 5px;
+}
+
+.prof-pic {
+  border-radius: 20px;
+  height: 275px;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+/* formats my photo nicely */
+
+.abt-info-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.abt-info-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* the two paragraphs of text in the about page */
