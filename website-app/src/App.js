@@ -15,15 +15,11 @@ function App() {
           <Link to="/projects">
             <li className="proj-btn">Projects</li>
           </Link>
-          <Link to="/about">
-            <li className="abt-btn">About Me</li>
-          </Link>
         </ul>
       </header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/projects" element={<Projects></Projects>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
       </Routes>
     </HashRouter>
   );
